@@ -1,4 +1,5 @@
 import React from "react";
+// import withRouter from 'react-router-dom'
 
 import CollectionItem from "../collection-item/collection-item.component";
 
@@ -7,6 +8,8 @@ import {
   PreviewContainer,
   TitleContainer,
 } from "./collection-preview.styles";
+
+// const ColllectionItemWithSpinner = WithSpinner(CollectionItem)
 
 const CollectionPreview = ({ title, items }) => (
   <CollectionPreviewContainer>
